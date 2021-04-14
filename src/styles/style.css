@@ -120,6 +120,7 @@ h3 {
 
 .video {
   margin-bottom: -195px;
+  border: 0;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
