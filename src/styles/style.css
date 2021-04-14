@@ -48,6 +48,10 @@ body {
   background: var(--brown);
 }
 
+.background-white {
+  background: var(--white);
+}
+
 .background-image {
   position: relative;
 }
@@ -72,6 +76,7 @@ h2,
 h3 {
   margin: 0;
 
+  color: var(--primary);
   font-family: Neucha, cursive;
   line-height: 1.2em;
 }
@@ -142,6 +147,10 @@ h3 {
   color: var(--primary);
 }
 
+.color-dark {
+  color: var(--dark);
+}
+
 .color-light {
   color: var(--light);
 }
@@ -150,8 +159,16 @@ h3 {
   color: var(--semi-transparent-dark);
 }
 
+.color-semi-transparent-white {
+  color: var(--semi-transparent-white);
+}
+
 .color-white {
   color: var(--white);
+}
+
+.color-brown {
+  color: var(--brown);
 }
 
 .btn {
