@@ -34,12 +34,27 @@ body {
 
   color: var(--dark);
   font: 16px/1.6 "Open Sans", sans-serif;
+}
 
+.background-light {
   background: var(--light);
 }
 
-section::before {
+.background-primary-dark {
+  background: var(--primary-dark);
+}
+
+.background-image {
+  position: relative;
+}
+
+.background-image::before {
   position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  overflow: hidden;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,6 +66,8 @@ section::before {
 h1,
 h2,
 h3 {
+  margin: 0;
+
   font-family: Neucha, cursive;
   line-height: 1.2em;
 }
@@ -72,7 +89,6 @@ h3 {
   flex-wrap: wrap;
   max-width: 1110px;
   margin: auto;
-  padding: 100px 0;
 }
 
 .justify-between {
@@ -89,7 +105,7 @@ h3 {
 
 .header-title {
   flex-basis: 1110px;
-  margin: 0 0 85px;
+  margin-bottom: 185px;
 }
 
 .header-image {
@@ -102,10 +118,6 @@ h3 {
 
 .flex-column {
   flex: 0 1 540px;
-}
-
-.mt-20 {
-  margin: 20px 0;
 }
 
 .color-main {
@@ -123,4 +135,26 @@ h3 {
   text-decoration: none;
 
   background: var(--primary);
+}
+
+.align-center {
+  text-align: center;
+}
+
+.main-title {
+  flex-basis: 1110px;
+}
+
+.video {
+  margin-bottom: -195px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.padding-top-bottom-100 {
+  padding: 100px 0;
 }
